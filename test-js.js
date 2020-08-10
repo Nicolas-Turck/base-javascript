@@ -1,5 +1,7 @@
 /* test code javascript cours openclassroom */
 
+// declare a constant for no modify this 
+const numbersOfBird = 5;
 
 //declare and assign a variablejavascript
 let numbersOfCats = 2;
@@ -21,6 +23,8 @@ numbersOfDogs -= 2 // substract to variable
 numbersOfDogs ++; // to add  1
 numbersOfDogs --; // subtract 1
 
+// diisplay variable with console.log(nameofvar);
+console.log(numbersOfPets);
 
 // Multiplication and division
 
@@ -52,3 +56,14 @@ let totalShowTime = totalsEpisode * totalEpisodeAndCommercialTime;
 // =====================or ================
 
 let totalShowTime = (episodeTime + commercialTime) * numberOfSeasons * numberOfEpisodes;
+
+
+// ceate constante ex2
+
+// =====================================
+
+const hoursPerDay = 24;
+const minutesPerHour = 60;
+const secondsPerMinute = 60;
+
+// =====================================
