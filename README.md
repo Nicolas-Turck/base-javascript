@@ -8,4 +8,4 @@ i create object
 
 i create class
 ![Screenshot](js.png)
-![alt text](http://base-javascript/js.png)
+![Screenshot](js2.png)
