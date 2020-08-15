@@ -67,3 +67,10 @@ const minutesPerHour = 60;
 const secondsPerMinute = 60;
 
 // =====================================
+
+// types of data
+
+let episodeTitle = 'kingdom'; //string
+let episodeDuration = 45; // integer
+let episodeDuration2 = 45.5 // float
+let hasBeenWatched = true; // Boolean true or false
