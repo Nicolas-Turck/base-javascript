@@ -9,3 +9,7 @@ i create object
 i create class
 ![Screenshot](js.png)
 ![Screenshot](js2.png)
+
+i create array
+![Screenshot](jsarray.png)
+

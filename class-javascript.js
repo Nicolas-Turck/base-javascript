@@ -14,3 +14,6 @@ class Episode {
   let secondEpisode = new Episode("croc noir", 50, false);
   
   let thirdEpisode = new Episode("croc rouge", 60, true);
+
+  console.log(firstEpisode)
+ 
