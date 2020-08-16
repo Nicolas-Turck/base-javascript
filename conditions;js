@@ -1,0 +1,10 @@
+
+let clientIslogged = true;
+
+if (clientIslogged){
+  console.log('client is connected')
+  
+} else {
+  console.log('client is not connected')
+  
+}

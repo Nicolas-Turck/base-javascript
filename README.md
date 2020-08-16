@@ -15,3 +15,5 @@ i create array
 ![Screenshot](codepenarray.png)
 ![Screenshot](codepenarray2.png)
 
+i create conditions if else with comparaison operateur 
+![Screenshot](ifelse.png)
