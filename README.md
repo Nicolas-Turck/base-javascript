@@ -17,3 +17,6 @@ i create array
 
 i create conditions if else with comparaison operateur 
 ![Screenshot](ifelse.png)
+
+i create condtion with else if
+![Screenshot](elseif.png)

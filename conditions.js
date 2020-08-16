@@ -57,4 +57,28 @@ if (numberClient >= 5){
     console.log(" tallest or equals")
     
   } else {
-    console.log("smallest ")
+    console.log("smallest ")}
+
+
+    // if else and else if
+
+    let clientIslogged = true;
+    let acceptedClient = 10;
+    let numberofClient = 5;
+
+    
+    if (clientIslogged){
+      console.log('client is connected')
+      
+    } else {
+      console.log('client is not connected')
+      
+    }
+    
+    if (numberofClient == acceptedClient){
+      console.log("full client")
+    } else if (numberofClient < acceptedClient){
+      console.log("add new client")
+    } else {
+      console.log("not add new clients")
+    }
