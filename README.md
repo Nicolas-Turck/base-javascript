@@ -13,4 +13,5 @@ i create class
 i create array
 ![Screenshot](jsarray.png)
 ![Screenshot](codepenarray.png)
+![Screenshot](codepenarray2.png)
 
