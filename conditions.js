@@ -82,3 +82,88 @@ if (numberClient >= 5){
     } else {
       console.log("not add new clients")
     }
+
+    class Episode {
+      constructor(title, duration, minutesWatched) {
+        this.title = title;
+        this.duration = duration;
+        
+        // Add conditions here
+        // =================================
+        if (duration === minutesWatched) { // if episode has been watched is true else is false 
+          this.hasBeenWatched = true;
+        } else if (duration < minutesWatched) {
+          this.hasBeenWatched = false;
+        }    
+
+
+    // difference == and === or != and !==
+// &&  — ET logique — pour vérifier si deux conditions sont toutes les deux vraies ;
+
+// ||   — OU logique — pour vérifier si au moins une condition est vraie ;
+
+// !   — NON logique — pour vérifier si une condition n'est pas vraie. 
+let userLoggedIn = true;
+let userHasPremiumAccount = true;
+let userHasMegaPremiumAccount = false;
+
+userLoggedIn && userHasPremiumAccount; // true
+userLoggedIn && userHasMegaPremiumAccount; // false
+
+userLoggedIn || userHasPremiumAccount; // true
+userLoggedIn || userHasMegaPremiumAccount; // true
+
+!userLoggedIn; // false
+!userHasMegaPremiumAccount; // true
+
+class Episode {
+  constructor(title, duration, minutesWatched) {
+    this.title = title;
+    this.duration = duration;
+    // Add logic here
+    // ======================
+    if (minutesWatched === 0){
+      this.watchedText = 'not yet watched';
+      this.continueWatching = false;
+      } else if (minutesWatched > 0 && minutesWatched < duration){
+        this.watchedText = 'watching';
+        this.continueWatching = true;
+      } else if (minutesWatched === duration) {
+        this.watchedText = 'watched';
+        this.continueWatched = false;
+      }
+      
+    
+    // swicht
+
+    let firstUser = {
+      name: "Will Alexander",
+      age: 33,
+      accountLevel: "normal"
+  };
+  
+  let secondUser = {
+      name: "Sarah Kate",
+      age: 21,
+      accountLevel: "premium"
+  };
+  
+  let thirdUser = {
+      name: "Audrey Simon",
+      age: 27,
+      accountLevel: "mega-premium"
+  };
+
+  switch (firstUser.accountLevel) {
+    case 'normal':
+        console.log('You have a normal account!');
+        break;
+    case 'premium':
+        console.log('You have a premium account!');
+        break;
+    case 'mega-premium':
+        console.log('You have a mega premium account!');
+        break;
+    default:
+        console.log('Unknown account type!');
+}
