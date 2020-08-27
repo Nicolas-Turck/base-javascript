@@ -39,3 +39,43 @@ while (numberOfCookies > 0 && numberOfChild > 0){
   numberOfChild --;
   console.log("child eat Cookies");
 }console.log("all child eat Cookies");
+
+
+// function
+
+const calculateAverageRating =   (ratings) => {
+  
+    if (ratings.length === 0) {
+      return 0;
+    }
+  let sum = 0;
+  for (let rating of ratings) {
+    sum += rating ;
+  }
+   
+    return sum / ratings.length;
+  }
+
+// class with many function
+
+class BankAccount {
+    constructor(owner, balence){
+      this.owner = owner;
+      this.balence = balence;
+    } 
+    showBalence(){ console.log ("you are  "+ this.balence + " Euro"); 
+     }
+    deposit(amount){ this.balence += amount;
+                   this.showBalence();}
+    retrait(ret){this.balence-=ret;
+             this.showBalence();
+             }
+  }
+  
+  
+  const newaccount =new BankAccount("eder", 500);
+  console.log(newaccount)
+  newaccount.showBalence()
+  newaccount.deposit(50)
+  newaccount.retrait(60)
+  
