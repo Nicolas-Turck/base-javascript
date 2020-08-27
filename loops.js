@@ -67,8 +67,13 @@ class BankAccount {
      }
     deposit(amount){ this.balence += amount;
                    this.showBalence();}
-    retrait(ret){this.balence-=ret;
-             this.showBalence();
+    retrait(ret){
+      if (ret > this.balence){
+        console.log("pas assez de cash")
+      } else {
+        this.balence-=ret;
+        this.showBalence();}
+                            
              }
   }
   
@@ -77,5 +82,5 @@ class BankAccount {
   console.log(newaccount)
   newaccount.showBalence()
   newaccount.deposit(50)
-  newaccount.retrait(60)
+  newaccount.retrait(600)
   
