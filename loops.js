@@ -84,3 +84,19 @@ class BankAccount {
   newaccount.deposit(50)
   newaccount.retrait(600)
   
+
+  class Show {
+    constructor(title, numberOfSeasons) {
+      this.title = title;
+      this.numberOfSeasons = numberOfSeasons;
+      this.ratings = [];
+      this.averageRating = 0;
+    }  addRating(rating){
+      this.ratings.push(rating);
+    
+      let sum = 0;
+      
+      for ( let rating of this.ratings){
+        sum += rating;}
+         this.averageRating = sum/        this.ratings.length;
+    }}
