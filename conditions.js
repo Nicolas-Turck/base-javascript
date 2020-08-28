@@ -167,3 +167,11 @@ class Episode {
     default:
         console.log('Unknown account type!');
 }
+
+// add ternaire 
+
+var result, number = 42;
+
+result = (number < 10)? 'plus grand que 10' : 'plus petit que 10';
+
+console.log(result);
