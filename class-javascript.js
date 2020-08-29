@@ -72,4 +72,44 @@ if (user.connected === true){
 }
 }
 console.log(getsconnected)
+
+// same exemple with function 
+
+class UserPlayer {
+  
+  constructor(name, age, connected){
+      
+      this.name = name;
+      this.age = age;
+      this.connected = connected;
+  } 
+  
+}
+let gets = []
+let getsconnected = []
+let player = new UserPlayer("eder", 54, true );
+gets.push(player)
+let player1 = new UserPlayer("thiago", 18, true );
+gets.push(player1)
+let player2 = new UserPlayer("eric", 50, false );
+gets.push(player2)
+
+console.log(gets)
+for (let user of gets){
+if (user.connected === true){
+  getsconnected.push(user)
+}
+}
+function Function(){
+for( user of getsconnected){
+  if (user.age < 18){
+     console.log("Alert");
+   }else if (user.age >= 18) {
+     console.log("acess ok "+ user.name)
+    }
+}
+}
+
+console.log(getsconnected)
+Function()
  
