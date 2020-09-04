@@ -48,3 +48,15 @@ function showmsg(name, age){
   
   showmsg(prompt("wthas is you name :"), prompt("how old are you"));
   alert(ages);
+
+  // declare in variable anonymous function 
+  let anonymousFunction = function(){
+    alert("i am anonymous function");
+  };
+  
+  anonymousFunction()
+
+  // fonction annonyme qui s'appelle toute seul
+  (function(){
+    alert("i am an other anonymous function");
+  })();
